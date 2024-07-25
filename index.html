@@ -42,9 +42,46 @@
             width: 100%;
 
         }
+        @media (max-width: 850px){
+            #map {
+            height: 200px;
+            width: 100%;
+            z-index: 1;
+
+        }
+        .mp {
+            flex: 1;
+            box-sizing: border-box;
+            height: 200px;
+            width: 50%;
+        }
+
+        section.mapa p {
+            font-size: 15px;
+            color: #363636;
+            margin-bottom: 100px;
+            margin-left: 10px;
+            text-align: center;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .contenedor {
+            flex: 1;
+            box-sizing: border-box;
+        }
+
+        section.mapa {
+            display: flex;
+            align-items: flex-start;
+            background-color: #f8f8f8;
+            height: 200px;
+            width: 100%;
+
+        }
+    }
     </style>
 </head>
-<body>
+<body onclick="playaudio()">
     <div class="mesagge-container">
         <div class="message">
             <p>SPECIAL OFFER IN ENCINO</p>
@@ -75,7 +112,7 @@
             </ul>
         </nav>
     </header>
-    <section class="contenedor-imagen">
+    <section id="contenedor-imagen">
         <div class="container">
             <h2>We are LoveCatsNDogs</h2>
             <img src="perro-gato.jpg" alt="Imagen nueva" title="LoveDogs">
@@ -198,5 +235,13 @@
             <p>© 2024 LoveCatsNDogs - All rights reserved</p>
         </div>
     </footer>
+    <audio id="musica1" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function playaudio() {
+            document.getElementById("musica1").play();
+        }
+    </script>
 </body>
 </html>
