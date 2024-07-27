@@ -103,7 +103,7 @@ nav ul li a:hover {
     text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
     position:absolute;
     top: 140%;
-    left: 25%;
+    left: 28%;
     transform: translate(-50%, -50%);
     font-weight: bold;
     font-size: 30px;
@@ -444,7 +444,1838 @@ nav ul li a:hover {
     padding: 10px;
     border-radius: 5px;
 }
-@media (max-width: 850px){
+
+@media (max-width: 2006px){
+    .logo img {
+        width: 200px;
+        height: 200px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 2030px;
+        height: 23px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 18px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 50px;
+        padding: 10px;
+        color: azure;
+    }
+    header {
+        width: 2005px;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 2005px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 2005px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    #Caracteristicas {
+        size: 2005px 1000px;
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 1000px 800px;
+        background-position: calc(50vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    
+    #Caracteristicas ul{
+        margin-left: 40px;
+        margin-top: -100px;
+        padding-top: 200px;
+        color: #000000;
+        font-size: 25px;
+        
+      
+    }
+    #Caracteristicas .container{
+        padding: 400px ;
+        text-align: initial;
+        padding-top: 0px;
+        
+    
+    }
+
+    .mapa .contenedor {
+        height: 500px;
+    }
+    #map {
+        height: 500px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 500px;
+        width: 50%;
+    }
+
+    
+    
+    section.mapa p {
+        font-size: 5px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 900px;
+        max-width: 160px;
+        max-height: 200px;
+        margin-left: 23px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 2005px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 15px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+    
+    .spacer {
+        height: 500px;
+    }
+    .spacer2 {
+        height: 500px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    #nuevo .container {
+        padding-top: 1400px;
+    }
+}
+
+
+
+@media (max-width: 1281px){
+    .logo img {
+        width: 200px;
+        height: 200px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 1310px;
+        height: 23px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 18px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 50px;
+        padding: 10px;
+        color: azure;
+    }
+    header {
+        width: 1280px;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 1280px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 1281px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 15px;
+    }
+    #Caracteristicas{
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 450px 250px;
+        background-position: calc(50vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    #Caracteristicas ul{
+        margin-left: 120px;
+        margin-top: -100px;
+        padding-top: 100px;
+        color: #000000;
+        font-size: 15px;
+        
+      
+    }
+    #Caracteristicas .container{
+        padding: 0px;
+        text-align: initial;
+        padding-top: 0px;
+        
+    
+    }
+    #map {
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 100px;
+        width: 50%;
+    }
+    
+    section.mapa p {
+        font-size: 5px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 550px;
+        max-width: 160px;
+        max-height: 200px;
+        margin-left: 23px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 1280px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 15px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+    
+    .spacer {
+        height: 280px;
+    }
+    .spacer2 {
+        height: 100px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    #nuevo .container {
+        padding-top: 700px;
+    }
+}
+
+
+
+
+@media (max-width: 1025px){
+    .logo img {
+        width: 200px;
+        height: 200px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 1048px;
+        height: 23px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 18px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 1024px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 1024px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 15px;
+    }
+    #Caracteristicas{
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 600px 400px;
+        background-position: calc(50vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    #Caracteristicas ul{
+        margin-left: 120px;
+        margin-top: -100px;
+        padding: 100px;
+        color: #000000;
+        font-size: 15px;
+        
+      
+    }
+    #Caracteristicas .container{
+        text-align: initial;
+        padding-top: 0px;
+        
+    
+    }
+    #map {
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 100px;
+        width: 50%;
+    }
+    
+    section.mapa p {
+        font-size: 5px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 420px;
+        max-width: 160px;
+        max-height: 200px;
+        margin-left: 23px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 1024px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 15px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 12px;
+    }   
+    .spacer2 {
+        height: 100px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+}
+
+@media (max-width: 913px){
+    .logo img {
+        width: 120px;
+        height: 110px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 935px;
+        height: 30px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 20px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 912px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 912px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 18px;
+    }
+    
+    #Caracteristicas{
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 450px 250px;
+        background-position: calc(50vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    #Caracteristicas ul{
+        margin-left: 120px;
+        margin-top: -100px;
+        padding: 50px;
+        color: #000000;
+        font-size: 15px;
+        
+      
+    }
+    #Caracteristicas .container{
+        text-align: initial;
+        padding-top: 0px;
+        
+    
+    }
+    #map {
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 100px;
+        width: 50%;
+    }
+    
+    section.mapa p {
+        font-size: 5px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 285px;
+        max-width: 180px;
+        max-height: 180px;
+        margin-left: 70px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 912px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 18px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 19px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 25px;
+    }   
+    .spacer2 {
+        height: 100px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+}
+
+@media (max-width: 854px){
+    .logo img {
+        width: 60px;
+        height: 50px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 862px;
+        height:25px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 12px;
+       height: 25px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 853px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 853px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 12px;
+    }
+    #Caracteristicas{
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 450px 250px;
+        background-position: calc(50vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    #Caracteristicas ul{
+        margin-left: 120px;
+        margin-top: -100px;
+        padding-top: 100px;
+        color: #000000;
+        font-size: 12px;
+        
+      
+    }
+    #Caracteristicas .container{
+        text-align: initial;
+        padding-top: 0px;
+        
+    
+    }
+    #map {
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 100px;
+        width: 50%;
+    }
+    
+    section.mapa p {
+        font-size: 5px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 285px;
+        max-width: 160px;
+        max-height: 160px;
+        margin-left: 23px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 853px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 12px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 8px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 10px;
+    }   
+    .spacer2 {
+        height: 100px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+}
+
+
+@media (max-width: 821px){
+    .logo img {
+        width: 110px;
+        height: 100px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 829px;
+        height: 22px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 20px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 820px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 820px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 20px;
+    }
+    #Caracteristicas{
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 450px 250px;
+        background-position: calc(50vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    #Caracteristicas ul{
+        margin-left: 120px;
+        margin-top: -100px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        color: #000000;
+        font-size: 15px;
+        
+      
+    }
+    #Caracteristicas .container{
+        text-align: initial;
+        padding-top: 0px;
+        
+    
+    }
+    #map {
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 100px;
+        width: 50%;
+    }
+    
+    section.mapa p {
+        font-size: 15px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 285px;
+        max-width: 160px;
+        max-height: 160px;
+        margin-left: 50px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 820px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 15px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 10px;
+    }   
+    .spacer2 {
+        height: 100px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    #nuevo .container {
+        padding-top: 90px;
+    }
+}
+
+
+
+
+
+@media (max-width: 769px){
+    .logo img {
+        width: 60px;
+        height: 50px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 791px;
+        height: 22px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 10px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 768px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 768px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 10px;
+    }
+    #Caracteristicas{
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 450px 250px;
+        background-position: calc(50vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    #Caracteristicas ul{
+        margin-left: 120px;
+        margin-top: -100px;
+        padding-top: 100px;
+        color: #000000;
+        font-size: 8px;
+        
+      
+    }
+    #Caracteristicas .container{
+        text-align: initial;
+        padding-top: 0px;
+        
+    
+    }
+    #map {
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 100px;
+        width: 50%;
+    }
+    
+    section.mapa p {
+        font-size: 5px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 285px;
+        max-width: 160px;
+        max-height: 160px;
+        margin-left: 23px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 768px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 8px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 8px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 10px;
+    }   
+    .spacer2 {
+        height: 100px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+}
+
+@media (max-width: 541px){
+    .logo img {
+        width: 60px;
+        height: 50px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 565px;
+        height: 22px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 10px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 540px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 540px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 10px;
+    }
+    #Caracteristicas{
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 250px 200px;
+        background-position: calc(55vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    #Caracteristicas ul{
+        margin-left: 50px;
+        color: #000000;
+        font-size: 8px;
+        padding: 50px;
+        
+    
+        
+      
+    }
+    #Caracteristicas .container{
+        text-align: initial;
+        padding-top: 0px;
+        padding-left: 20px;
+    
+    }
+    #map {
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 100px;
+        width: 50%;
+    }
+    
+    section.mapa p {
+        font-size: 5px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 170px;
+        max-width: 160px;
+        max-height: 160px;
+        margin-left: 23px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 540px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 8px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 8px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 10px;
+    }   
+    .spacer2 {
+        height: 100px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    #nuevo .container {
+        padding-top: 0px;
+    }
+}
+
+
+
+@media (max-width: 431px){
+    .logo img {
+        width: 60px;
+        height: 50px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 455px;
+        height: 22px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 10px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 430px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 430px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 10px;
+    }
+    #Caracteristicas{
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 250px 200px;
+        background-position: calc(40vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    #Caracteristicas ul{
+        margin-left: -40px;
+        color: #000000;
+        font-size: 8px;
+        
+      
+    }
+    #Caracteristicas .container{
+        text-align: initial;
+        padding-top: 0px;
+        padding-left: 20px;
+    
+    }
+    #map {
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 100px;
+        width: 50%;
+    }
+    
+    section.mapa p {
+        font-size: 5px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 100px;
+        max-width: 160px;
+        max-height: 160px;
+        margin-left: 23px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 430px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 8px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 8px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 10px;
+    }   
+    .spacer2 {
+        height: 100px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    #nuevo .container {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 415px){
     .logo img {
         width: 60px;
         height: 50px;
@@ -474,7 +2305,7 @@ nav ul li a:hover {
         text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
         position:absolute;
         top: 20%;
-        left: 28%;
+        left: 30%;
         transform: translate(-50%, -50%);
         font-weight: bold;
         font-size: 30px;
@@ -484,6 +2315,7 @@ nav ul li a:hover {
     
     #contenedor-imagen {
         height: 400px;
+        width: 414px;
         /* Altura de la sección */
         background-size: cover;
         background-position: center;
@@ -521,6 +2353,7 @@ nav ul li a:hover {
     #Caracteristicas .container{
         text-align: initial;
         padding-top: 0px;
+        padding-left: 20px;
         
     
     }
@@ -635,6 +2468,604 @@ nav ul li a:hover {
         font-size: 30px;
         padding: 10px;
         color: azure;
+    }
+    #nuevo .container {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 391px){
+    .logo img {
+        width: 60px;
+        height: 50px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 415px;
+        height: 22px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 10px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 390px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 390px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 10px;
+    }
+    #Caracteristicas{
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 250px 200px;
+        background-position: calc(40vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    #Caracteristicas ul{
+        margin-left: -40px;
+        color: #000000;
+        font-size: 8px;
+        
+      
+    }
+    #Caracteristicas .container{
+        text-align: initial;
+        padding-top: 0px;
+        padding-left: 20px;
+    
+    }
+    #map {
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 100px;
+        width: 50%;
+    }
+    
+    section.mapa p {
+        font-size: 5px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 100px;
+        max-width: 160px;
+        max-height: 160px;
+        margin-left: 23px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 390px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 8px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 8px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 10px;
+    }   
+    .spacer2 {
+        height: 100px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    #nuevo .container {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 376px){
+    .logo img {
+        width: 60px;
+        height: 50px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 400px;
+        height: 22px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 10px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 375px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 375px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 10px;
+    }
+    #Caracteristicas{
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 250px 200px;
+        background-position: calc(40vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    #Caracteristicas ul{
+        margin-left: -40px;
+        color: #000000;
+        font-size: 8px;
+        
+      
+    }
+    #Caracteristicas .container{
+        text-align: initial;
+        padding-top: 0px;
+        padding-left: 20px;
+        
+    
+    }
+    #map {
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 100px;
+        width: 50%;
+    }
+    
+    section.mapa p {
+        font-size: 5px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 100px;
+        max-width: 160px;
+        max-height: 160px;
+        margin-left: 23px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 375px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 8px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 8px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 10px;
+    }   
+    .spacer2 {
+        height: 100px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    #nuevo .container {
+        padding-top: 0px;
+    }
+}
+@media (max-width: 345px){
+    .logo img {
+        width: 60px;
+        height: 50px;
+        align-items: center;
+        
+    }
+    nav {
+        position:fixed;
+        background-color: #f8f8f8;
+        left: -24px;
+        top: 75px;
+        width: 368px;
+        height: 22px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        z-index: 2;
+        
+    }
+    nav ul li {    
+       text-align: center;
+       font-size: 7px;
+       color: rgba(15, 15, 15, 0.806);
+    
+    }
+    
+    #contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 20%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    
+    #contenedor-imagen {
+        height: 400px;
+        width: 344px;
+        /* Altura de la sección */
+        background-size: cover;
+        background-position: center;
+        text-align:center;
+        padding-top: 100px;
+        /* Espacio para el header fijo */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    }
+    #contenedor-imagen img {
+        height: auto;
+        width: 344px;
+    
+    }
+    
+    .producto p {
+        margin-bottom: 10px;
+        padding: 20px;
+        font-size: 10px;
+    }
+    #Caracteristicas{
+        background-image: url("Ventajas.jpeg");
+        background-repeat: no-repeat;
+        background-size: 250px 200px;
+        background-position: calc(40vw - 0px);
+        background-color: rgba(255, 255, 255, 0.957);
+        color: aliceblue;
+    }
+    #Caracteristicas ul{
+        margin-left: -40px;
+        color: #000000;
+        font-size: 8px;
+        
+      
+    }
+    #Caracteristicas .container{
+        text-align: initial;
+        padding-top: 0px;
+        padding-left: 20px;
+        
+    
+    }
+    #map {
+        height: 50px;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    .mp {
+        flex: 1;
+        box-sizing: border-box;
+        height: 100px;
+        width: 50%;
+    }
+    
+    section.mapa p {
+        font-size: 5px;
+        color: #363636;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .contenedor {
+        flex: 1;
+        box-sizing: border-box;
+    }
+    
+    section.mapa {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f8f8f8;
+        height: 100px;
+        width: 100%;
+    
+    }
+    .banner img {
+        left: 78px;
+        max-width: 160px;
+        max-height: 160px;
+        margin-left: 23px;
+        margin-top: -16px;
+        position: fixed;
+        align-items: center;
+        /* Ajusta el tamaño máximo de tu logo */
+    }
+    #Nosotros img {
+        height: auto;
+        width: 344px;
+    }
+    #Nosotros .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .texto-maria {
+        position: absolute;
+        font-size: 6px;
+        top: 60%;
+        left: 60%;
+        transform: translate(0, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        padding: 10px;
+    }
+    .footer-info {
+        flex: 1 1 100px;
+        /* Distribución equitativa del espacio, ancho mínimo de 300px */
+        margin-bottom: 1px;
+    }
+    
+    .footer-info h3 {
+        margin-top: 0;
+    }
+    
+    .footer-info p {
+        margin-bottom: 5px;
+        font-size: 8px;
+        color: #f8f8f8;
+    }
+    
+    .social-media {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .social-media a {
+        margin: 0 10px;
+    }
+    .social-media p {
+        color: #ffffff;
+        padding-left: 10px;
+        font-size: 6px;
+    }   
+    .spacer2 {
+        height: 100px;
+        background-color: #f8f8f8;
+        padding: 50px 0;
+        /* Altura suficiente para evitar que el footer cubra la sección */
+    }
+    .contenedor-imagen h2 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: -10px;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px;
+        color: azure;
+    }
+    #nuevo .container {
+        padding-top: 0px;
     }
 }
 
