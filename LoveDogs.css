@@ -439,13 +439,41 @@ nav ul li a:hover {
     top: 70%;
     left: 60%;
     transform: translate(0, -50%);
-    color: white;
+    color: rgb(254, 254, 255);
     background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
     padding: 10px;
     border-radius: 5px;
+    font-family: Dancing Script;
+    text-decoration: none;
 }
 
+.texto-maria a{
+    text-decoration: none;
+}
+
+
+
 @media (max-width: 3001px){
+    .mensaje-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -601,6 +629,12 @@ nav ul li a:hover {
         color: white;
         background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  sans-serif;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
@@ -659,9 +693,31 @@ nav ul li a:hover {
     #nuevo .container {
         padding-top: 1400px;
     }
+
+    
 }
 
 @media (max-width: 2571px){
+    .mensaje-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -817,6 +873,12 @@ nav ul li a:hover {
         color: white;
         background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  sans-serif;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
@@ -882,6 +944,26 @@ nav ul li a:hover {
 
 
 @media (max-width: 2551px){
+    .mensaje-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -1037,7 +1119,14 @@ nav ul li a:hover {
         color: white;
         background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  sans-serif;
     }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
+    }
+    
     .footer-info {
         flex: 1 1 100px;
         /* Distribución equitativa del espacio, ancho mínimo de 300px */
@@ -1100,6 +1189,26 @@ nav ul li a:hover {
 
 
 @media (max-width: 2501px){
+    .mensaje-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -1255,7 +1364,14 @@ nav ul li a:hover {
         color: white;
         background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  sans-serif;
     }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
+    }
+    
     .footer-info {
         flex: 1 1 100px;
         /* Distribución equitativa del espacio, ancho mínimo de 300px */
@@ -1320,6 +1436,26 @@ nav ul li a:hover {
 
 
 @media (max-width: 2270px){
+    .mensaje-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -1475,7 +1611,14 @@ nav ul li a:hover {
         color: white;
         background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  sans-serif;
     }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
+    }
+    
     .footer-info {
         flex: 1 1 100px;
         /* Distribución equitativa del espacio, ancho mínimo de 300px */
@@ -1537,6 +1680,26 @@ nav ul li a:hover {
 
 
 @media (max-width: 2251px){
+    .mensaje-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -1692,7 +1855,14 @@ nav ul li a:hover {
         color: white;
         background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  sans-serif;
     }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
+    }
+    
     .footer-info {
         flex: 1 1 100px;
         /* Distribución equitativa del espacio, ancho mínimo de 300px */
@@ -1754,6 +1924,26 @@ nav ul li a:hover {
 
 
 @media (max-width: 2201px){
+    .mensaje-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -1909,7 +2099,14 @@ nav ul li a:hover {
         color: white;
         background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  sans-serif;
     }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
+    }
+    
     .footer-info {
         flex: 1 1 100px;
         /* Distribución equitativa del espacio, ancho mínimo de 300px */
@@ -1971,6 +2168,26 @@ nav ul li a:hover {
 
 
 @media (max-width: 2100px){
+    .mensaje-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -2126,7 +2343,14 @@ nav ul li a:hover {
         color: white;
         background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  sans-serif;
     }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
+    }
+    
     .footer-info {
         flex: 1 1 100px;
         /* Distribución equitativa del espacio, ancho mínimo de 300px */
@@ -2190,6 +2414,26 @@ nav ul li a:hover {
 
 
 @media (max-width: 2050px){
+    .mensaje-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 400px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 70px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -2345,7 +2589,14 @@ nav ul li a:hover {
         color: white;
         background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  sans-serif;
     }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
+    }
+    
     .footer-info {
         flex: 1 1 100px;
         /* Distribución equitativa del espacio, ancho mínimo de 300px */
@@ -2408,6 +2659,27 @@ nav ul li a:hover {
 
 
 @media (max-width: 2006px){
+
+    .mensaje-boton {
+        position: fixed;
+        top: 500px; /* Ajusta la posición según tus necesidades */
+        left:30px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 60px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 500px; /* Ajusta la posición según tus necesidades */
+        right:30px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 60px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -2563,7 +2835,14 @@ nav ul li a:hover {
         color: white;
         background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
     }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
+    }
+    
     .footer-info {
         flex: 1 1 100px;
         /* Distribución equitativa del espacio, ancho mínimo de 300px */
@@ -2626,6 +2905,26 @@ nav ul li a:hover {
 
 
 @media (max-width: 1281px){
+    .mensaje-boton {
+        position: fixed;
+        top: 518px; /* Ajusta la posición según tus necesidades */
+        left:16px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 60px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 518px; /* Ajusta la posición según tus necesidades */
+        right:16px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 60px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -2771,10 +3070,17 @@ nav ul li a:hover {
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
     }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
+    }
+    
     .footer-info {
         flex: 1 1 100px;
         /* Distribución equitativa del espacio, ancho mínimo de 300px */
@@ -2838,6 +3144,26 @@ nav ul li a:hover {
 
 
 @media (max-width: 1025px){
+    .mensaje-boton {
+        position: fixed;
+        top: 890px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 890px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 200px;
         height: 200px;
@@ -2979,10 +3305,17 @@ nav ul li a:hover {
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
     }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
+    }
+    
     .footer-info {
         flex: 1 1 100px;
         /* Distribución equitativa del espacio, ancho mínimo de 300px */
@@ -3036,6 +3369,27 @@ nav ul li a:hover {
 }
 
 @media (max-width: 913px){
+
+    .mensaje-boton {
+        position: fixed;
+        top: 1000px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 1000px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 120px;
         height: 110px;
@@ -3174,13 +3528,19 @@ nav ul li a:hover {
     }
     .texto-maria {
         position: absolute;
-        font-size: 18px;
+        font-size: 15px;
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
@@ -3234,6 +3594,27 @@ nav ul li a:hover {
 }
 
 @media (max-width: 854px){
+
+    .mensaje-boton {
+        position: fixed;
+        top: 1000px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 1000px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 60px;
         height: 50px;
@@ -3372,13 +3753,19 @@ nav ul li a:hover {
     }
     .texto-maria {
         position: absolute;
-        font-size: 12px;
+        font-size: 15px;
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
@@ -3575,9 +3962,15 @@ nav ul li a:hover {
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
@@ -3638,6 +4031,27 @@ nav ul li a:hover {
 
 
 @media (max-width: 769px){
+
+    .mensaje-boton {
+        position: fixed;
+        top: 900px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 900px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 80px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 60px;
         height: 50px;
@@ -3775,13 +4189,19 @@ nav ul li a:hover {
     }
     .texto-maria {
         position: absolute;
-        font-size: 8px;
+        font-size: 15px;
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
@@ -3835,12 +4255,34 @@ nav ul li a:hover {
 }
 
 @media (max-width: 541px){
+
+    .mensaje-boton {
+        position: fixed;
+        top: 600px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 600px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 60px;
         height: 50px;
         align-items: center;
         
     }
+
     nav {
         position:fixed;
         background-color: #f8f8f8;
@@ -3973,13 +4415,19 @@ nav ul li a:hover {
     }
     .texto-maria {
         position: absolute;
-        font-size: 8px;
+        font-size: 10px;
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
@@ -4038,6 +4486,27 @@ nav ul li a:hover {
 
 
 @media (max-width: 431px){
+
+    .mensaje-boton {
+        position: fixed;
+        top: 750px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 750px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 60px;
         height: 50px;
@@ -4177,9 +4646,15 @@ nav ul li a:hover {
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
@@ -4236,6 +4711,27 @@ nav ul li a:hover {
 }
 
 @media (max-width: 415px){
+
+    .mensaje-boton {
+        position: fixed;
+        top: 700px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 700px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 60px;
         height: 50px;
@@ -4376,9 +4872,15 @@ nav ul li a:hover {
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
@@ -4435,6 +4937,27 @@ nav ul li a:hover {
 }
 
 @media (max-width: 391px){
+
+    .mensaje-boton {
+        position: fixed;
+        top: 660px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 660px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 60px;
         height: 50px;
@@ -4570,13 +5093,19 @@ nav ul li a:hover {
     }
     .texto-maria {
         position: absolute;
-        font-size: 8px;
+        font-size: 7px;
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
@@ -4633,6 +5162,27 @@ nav ul li a:hover {
 }
 
 @media (max-width: 376px){
+
+    .mensaje-boton {
+        position: fixed;
+        top: 480px; /* Ajusta la posición según tus necesidades */
+        left:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .mensaje-boton img {
+        width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
+    .insta-boton {
+        position: fixed;
+        top: 480px; /* Ajusta la posición según tus necesidades */
+        right:40px; /* Ajusta la posición según tus necesidades */
+        z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    }
+    .insta-boton img {
+        width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+        height: auto;
+    }
     .logo img {
         width: 60px;
         height: 50px;
@@ -4769,13 +5319,19 @@ nav ul li a:hover {
     }
     .texto-maria {
         position: absolute;
-        font-size: 8px;
+        font-size: 7px;
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
@@ -4971,9 +5527,15 @@ nav ul li a:hover {
         top: 60%;
         left: 60%;
         transform: translate(0, -50%);
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar legibilidad */
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.623); /* Fondo semitransparente para mejorar legibilidad */
         padding: 10px;
+        font-family:  rajdhani;
+    }
+   
+    
+    .texto-maria a{
+        text-decoration: none;
     }
     .footer-info {
         flex: 1 1 100px;
