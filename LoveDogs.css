@@ -4714,7 +4714,7 @@ nav ul li a:hover {
 
     .mensaje-boton {
         position: fixed;
-        top: 700px; /* Ajusta la posición según tus necesidades */
+        top: 600px; /* Ajusta la posición según tus necesidades */
         left:40px; /* Ajusta la posición según tus necesidades */
         z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
     }
@@ -4724,7 +4724,7 @@ nav ul li a:hover {
     }
     .insta-boton {
         position: fixed;
-        top: 700px; /* Ajusta la posición según tus necesidades */
+        top: 600px; /* Ajusta la posición según tus necesidades */
         right:40px; /* Ajusta la posición según tus necesidades */
         z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
     }
