@@ -97,6 +97,7 @@ nav  a:hover {
     color: azure;
 }
 
+
 #contenedor-imagen {
     height: 1000px;
     /* Altura de la sección */
@@ -482,7 +483,7 @@ nav ul li a:hover {
     nav a {    
         padding: 5px 12px;
        text-align: center;
-       font-size: 18px;
+       font-size: 23px;
        color: #f7f4f4;
        text-shadow: #3f236c;
        transition: color 0.3s;
@@ -512,6 +513,29 @@ nav ul li a:hover {
         font-size: 80px;
         padding: 10px;
         color: azure;
+    }
+
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 55%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 60px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 58%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 50px;
+        padding: 10px;
+        color: rgb(97, 252, 252);
     }
     header {
         width: 3000px;
@@ -739,10 +763,10 @@ nav ul li a:hover {
         z-index: 2;
         
     }
-    nav ul li {    
+    nav a {    
        text-align: center;
-       font-size: 18px;
-       color: rgba(15, 15, 15, 0.806);
+       font-size: 23px;
+       
     
     }
     
@@ -756,6 +780,28 @@ nav ul li a:hover {
         font-size: 50px;
         padding: 10px;
         color: azure;
+    }
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 52%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 45px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 54%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 35px;
+        padding: 10px;
+        
     }
     header {
         width: 2570px;
@@ -985,10 +1031,10 @@ nav ul li a:hover {
         z-index: 2;
         
     }
-    nav ul li {    
+    nav a {    
        text-align: center;
        font-size: 18px;
-       color: rgba(15, 15, 15, 0.806);
+       
     
     }
     
@@ -1002,6 +1048,28 @@ nav ul li a:hover {
         font-size: 50px;
         padding: 10px;
         color: azure;
+    }
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 53%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 40px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 55%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 35px;
+        padding: 10px;
+        
     }
     header {
         width: 2550px;
@@ -1230,10 +1298,10 @@ nav ul li a:hover {
         z-index: 2;
         
     }
-    nav ul li {    
+    nav a{    
        text-align: center;
        font-size: 18px;
-       color: rgba(15, 15, 15, 0.806);
+       
     
     }
     
@@ -1428,6 +1496,28 @@ nav ul li a:hover {
         font-size: 30px;
         padding: 10px;
         color: azure;
+    }
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 55%;
+        left: 28%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 25px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 30%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        color: rgb(97, 252, 252);
     }
     #nuevo .container {
         padding-top: 1400px;
@@ -1979,9 +2069,31 @@ nav ul li a:hover {
         left: 30%;
         transform: translate(-50%, -50%);
         font-weight: bold;
-        font-size: 50px;
+        font-size: 70px;
         padding: 10px;
         color: azure;
+    }
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 55%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 60px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 59%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 50px;
+        padding: 10px;
+        
     }
     header {
         width: 2200px;
@@ -2209,10 +2321,10 @@ nav ul li a:hover {
         z-index: 2;
         
     }
-    nav ul li {    
+    nav a {    
        text-align: center;
        font-size: 18px;
-       color: rgba(15, 15, 15, 0.806);
+      
     
     }
     
@@ -2223,9 +2335,31 @@ nav ul li a:hover {
         left: 30%;
         transform: translate(-50%, -50%);
         font-weight: bold;
-        font-size: 50px;
+        font-size: 70px;
         padding: 10px;
         color: azure;
+    }
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 55%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 60px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 59%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 50px;
+        padding: 10px;
+       
     }
     header {
         width: 2099px;
@@ -2455,10 +2589,10 @@ nav ul li a:hover {
         z-index: 2;
         
     }
-    nav ul li {    
+    nav a {    
        text-align: center;
        font-size: 18px;
-       color: rgba(15, 15, 15, 0.806);
+      
     
     }
     
@@ -2469,9 +2603,31 @@ nav ul li a:hover {
         left: 30%;
         transform: translate(-50%, -50%);
         font-weight: bold;
-        font-size: 50px;
+        font-size: 65px;
         padding: 10px;
         color: azure;
+    }
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 55%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 60px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 60%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 50px;
+        padding: 10px;
+        
     }
     header {
         width: 2049px;
@@ -2701,10 +2857,10 @@ nav ul li a:hover {
         z-index: 2;
         
     }
-    nav ul li {    
+    nav a {    
        text-align: center;
        font-size: 18px;
-       color: rgba(15, 15, 15, 0.806);
+       
     
     }
     
@@ -2718,6 +2874,28 @@ nav ul li a:hover {
         font-size: 50px;
         padding: 10px;
         color: azure;
+    }
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 55%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 60px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 62%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 50px;
+        padding: 10px;
+        
     }
     header {
         width: 2005px;
@@ -2961,6 +3139,28 @@ nav ul li a:hover {
         padding: 10px;
         color: azure;
     }
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 58%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 45px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 65%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 35px;
+        padding: 10px;
+        
+    }
     header {
         width: 1280px;
     }
@@ -3200,6 +3400,7 @@ nav ul li a:hover {
         padding: 10px;
         color: azure;
     }
+
     
     #contenedor-imagen {
         height: 400px;
@@ -3362,7 +3563,7 @@ nav ul li a:hover {
         left: 25%;
         transform: translate(-50%, -50%);
         font-weight: bold;
-        font-size: 30px;
+        font-size: 40px;
         padding: 10px;
         color: azure;
     }
@@ -3427,6 +3628,28 @@ nav ul li a:hover {
         color: azure;
     }
     
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 25%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 24px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 30%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        
+    }
     #contenedor-imagen {
         height: 400px;
         width: 912px;
@@ -4994,6 +5217,28 @@ nav ul li a:hover {
         padding: 10px;
         color: azure;
     }
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 26%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 30%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px;
+        
+    }
     
     #contenedor-imagen {
         height: 400px;
@@ -5192,7 +5437,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
        
-        left: -24px;
+        left: -15px;
         top: 75px;
         width: 400px;
         height: 22px;
@@ -5212,7 +5457,7 @@ nav ul li a:hover {
         text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
         position:absolute;
         top: 20%;
-        left: 30%;
+        left: 32%;
         transform: translate(-50%, -50%);
         font-weight: bold;
         font-size: 30px;
@@ -5253,7 +5498,7 @@ nav ul li a:hover {
     #Caracteristicas ul{
         margin-left: -40px;
         color: #000000;
-        font-size: 8px;
+        font-size: 7px;
         
       
     }
@@ -5415,13 +5660,35 @@ nav ul li a:hover {
     #contenedor-imagen h2 {
         text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
         position:absolute;
-        top: 20%;
+        top: 23%;
+        left: 33%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 25px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h3 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 30%;
+        left: 34%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px;
+        color: azure;
+    }
+    #contenedor-imagen h4 {
+        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
+        position:absolute;
+        top: 35%;
         left: 40%;
         transform: translate(-50%, -50%);
         font-weight: bold;
-        font-size: 30px;
+        font-size: 10px;
         padding: 10px;
-        color: azure;
+        
     }
     
     #contenedor-imagen {
