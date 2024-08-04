@@ -4071,7 +4071,7 @@ nav ul li a:hover {
     #contenedor-imagen h2 {
         text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
         position:absolute;
-        top: 52%;
+        top: 50%;
         left: 30%;
         transform: translate(-50%, -50%);
         font-weight: bold;
@@ -4322,17 +4322,7 @@ nav ul li a:hover {
     
     }
     
-    #contenedor-imagen h2 {
-        text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
-        position:absolute;
-        top: 20%;
-        left: 30%;
-        transform: translate(-50%, -50%);
-        font-weight: bold;
-        font-size: 30px;
-        padding: 10px;
-        color: azure;
-    }
+   
     
     #contenedor-imagen {
         height: 400px;
@@ -4773,6 +4763,7 @@ nav ul li a:hover {
     nav a {    
        text-align: center;
        font-size: 10px;
+       padding-left: 5px;
        
     
     }
@@ -4986,7 +4977,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
        
-        left: 5px;
+        left: 0px;
         top: 75px;
         width: 437px;
         height: 22px;
@@ -4998,7 +4989,7 @@ nav ul li a:hover {
     nav a {    
        text-align: center;
        font-size: 10px;
-       
+       padding-left: 5px;
     
     }
     
@@ -5212,7 +5203,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
         
-        left: 5px;
+        left: 0px;
         top: 75px;
         width: 415px;
         height: 22px;
@@ -5224,6 +5215,7 @@ nav ul li a:hover {
     nav a {    
        text-align: center;
        font-size: 9px;
+       padding-left: 5px;
        
     
     }
@@ -5459,7 +5451,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
        
-        left: 5px;
+        left: 0px;
         top: 75px;
         width: 400px;
         height: 22px;
@@ -5471,7 +5463,7 @@ nav ul li a:hover {
     nav a {    
        text-align: center;
        font-size: 9px;
-       
+       padding-left: 5px;
     
     }
     
@@ -5663,7 +5655,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
         
-        left: 5px;
+        left: 0px;
         top: 75px;
         width: 368px;
         height: 22px;
@@ -5675,7 +5667,7 @@ nav ul li a:hover {
     nav a {    
        text-align: center;
        font-size: 7px;
-       
+       padding-left: 5px;
     
     }
     
