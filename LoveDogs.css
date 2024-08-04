@@ -4977,7 +4977,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
        
-        left: 0px;
+        left: -24px;
         top: 75px;
         width: 437px;
         height: 22px;
@@ -5203,7 +5203,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
         
-        left: 0px;
+        left: -24px;
         top: 75px;
         width: 415px;
         height: 22px;
@@ -5249,7 +5249,7 @@ nav ul li a:hover {
         left: 40%;
         transform: translate(-50%, -50%);
         font-weight: bold;
-        font-size: 15px;
+        font-size: 10px;
         padding: 10px;
         
     }
@@ -5451,7 +5451,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
        
-        left: 0px;
+        left: -24px;
         top: 75px;
         width: 400px;
         height: 22px;
@@ -5655,7 +5655,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
         
-        left: 0px;
+        left: -24px;
         top: 75px;
         width: 368px;
         height: 22px;
