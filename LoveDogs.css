@@ -4071,7 +4071,7 @@ nav ul li a:hover {
     #contenedor-imagen h2 {
         text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
         position:absolute;
-        top: 50%;
+        top: 52%;
         left: 30%;
         transform: translate(-50%, -50%);
         font-weight: bold;
@@ -4986,7 +4986,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
        
-        left: -24px;
+        left: 5px;
         top: 75px;
         width: 437px;
         height: 22px;
@@ -5006,7 +5006,7 @@ nav ul li a:hover {
         text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
         position:absolute;
         top: 20%;
-        left: 30%;
+        left: 34%;
         transform: translate(-50%, -50%);
         font-weight: bold;
         font-size: 30px;
@@ -5212,7 +5212,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
         
-        left: -24px;
+        left: 5px;
         top: 75px;
         width: 415px;
         height: 22px;
@@ -5232,7 +5232,7 @@ nav ul li a:hover {
         text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
         position:absolute;
         top: 20%;
-        left: 30%;
+        left: 34%;
         transform: translate(-50%, -50%);
         font-weight: bold;
         font-size: 30px;
@@ -5459,7 +5459,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
        
-        left: -15px;
+        left: 5px;
         top: 75px;
         width: 400px;
         height: 22px;
@@ -5479,7 +5479,7 @@ nav ul li a:hover {
         text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.715);
         position:absolute;
         top: 20%;
-        left: 32%;
+        left: 34%;
         transform: translate(-50%, -50%);
         font-weight: bold;
         font-size: 30px;
@@ -5663,7 +5663,7 @@ nav ul li a:hover {
     nav {
         position:fixed;
         
-        left: -20px;
+        left: 5px;
         top: 75px;
         width: 368px;
         height: 22px;
